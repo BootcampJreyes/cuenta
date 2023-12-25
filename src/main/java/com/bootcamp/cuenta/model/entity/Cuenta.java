@@ -14,15 +14,13 @@ import org.springframework.data.annotation.Id;
 public class Cuenta {
     @Id
     private String id;
-    private String dni;
-    private String nombre;
-    private String apellido;
+    private String tipoCuenta;
+    private String numeroCuenta;
+    private String cci;
+    private String tipoMoneda;
+    private String saldo;
     //@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-    private String fechaNacimiento;
-    private String celular;
-    private String email;
-    private String ciudad;
-
-
-
+    private String fechaApertura;
+    private String clienteId;
+    //private Tarjeta tarjeta;
 }
