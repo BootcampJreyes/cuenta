@@ -1,0 +1,13 @@
+server:
+  port: 8082
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/products
+  cloud:
+    config:
+      import-check:
+        enabled: false
+    enabled: false
+  import:
+    optional:  configserver:instead
