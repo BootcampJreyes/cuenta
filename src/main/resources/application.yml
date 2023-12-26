@@ -11,3 +11,9 @@ spring:
     enabled: false
   import:
     optional:  configserver:instead
+
+#spring:
+#  application:
+#    name: CUENTA
+#  config:
+#    import: optional:configserver:http://localhost:8093/
